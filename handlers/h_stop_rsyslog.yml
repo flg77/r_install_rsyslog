@@ -1,0 +1,9 @@
+---
+- block:
+  - name: Stop rsyslog
+    service:
+      name: rsyslog
+      state: stopped
+      enabled: no
+    register: isstopped
+

@@ -4,3 +4,6 @@
 #
 # - import_tasks: 
 #   tags: 
+- import_tasks: h_start_rsyslog.yml
+- import_tasks: h_stop_rsyslog.yml
+- import_tasks: h_restart_rsyslog.yml
